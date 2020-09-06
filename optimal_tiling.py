@@ -226,8 +226,9 @@ class opt_tiling(Config):
         return np.array(retImg)
 
 
+
 '''
-    Parallel Extraction
+    Parallel Pre - Extraction into .npy files
 '''
 
 # Slave Function
@@ -286,9 +287,6 @@ def parallel_fetching(indexRange, data_csv, data_path: str, n_jobs: int = 4, sav
     print(f'All Completed')
 
 
-
-
-
 if __name__ == '__main__':
 
     '''
@@ -306,11 +304,3 @@ if __name__ == '__main__':
         n_jobs = 16,
         save = True
     )
-
-    '''
-        Doing them one-by-one
-    '''
-
-    # tile_extractor = opt_tiling()
-    # stacked_patches = tile_extractor[0]
-    # print(f'Dimensions for Extracted Patches: {stacked_patches.shape}')

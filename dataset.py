@@ -1,3 +1,10 @@
+'''
+    PyTorch Dataset Loader
+    
+    Dataset Train Loads Directly from Pre-extracted .npy files
+    Dataset Inference Performance Extraction During RunTime
+'''
+
 import math, cv2
 import numpy as np 
 import torch
