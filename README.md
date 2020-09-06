@@ -3,8 +3,8 @@ This is the DeepLearning Approach of PANDA Challenge @Kaggle
 
 
 - Model: 
- - EfficientNet - B0
- - Pre-trained From ImageNet
+   - EfficientNet - B0
+   - Pre-trained From ImageNet
        
 - Label & Loss: 
        - Classification Bin Label, Cross-Entropy Loss
